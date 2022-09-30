@@ -1,4 +1,3 @@
-```python
 # 카드 뽑기/ 모든 카드 탐색
 def seek(nums, n, m):
   a = 0
@@ -11,6 +10,4 @@ def seek(nums, n, m):
         
 n,m = map(int,input().split())
 numbers  = sorted(list(map(int,input().split())),reverse =True)
-
 print(seek(numbers,n,m))
-```
