@@ -9,7 +9,7 @@ a_list = list(map(int, input().split()))
 b_list = list(map(int, input().split()))
 
 # b_list값을 인덱스와 매칭하여 저장
-b_dict = zip(b_list, range(n)) # key로 오름차순 정렬할 거기 때문에 key를 b_list로
+b_dict = zip(b_list, range(n)) # key로 오름차순 정렬할거기 때문에 key를 b_list로
 b_dict = sorted(b_dict) # key 오름차순 정렬, 각각의 value값은 b_list에서의 인덱스
 
 a_new = [0] * n
