@@ -23,7 +23,6 @@ def search(l, r, b):
     else: # b == A[mid]
       result += '1' + '\n'
     
-  
 for b in B:
   search(0, N - 1, b)
   
