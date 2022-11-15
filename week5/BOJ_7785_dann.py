@@ -1,8 +1,6 @@
 N = int(input())
 
-check_note = {
-
-}
+check_note = {}
 
 for i in range(N):
   person, check = input().split()
